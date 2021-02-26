@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-image: url("/Drum Kit/images/bg img.jpg");
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed; 
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(241, 15, 192);
+  font-family: "Arvo", cursive;
+  text-shadow: 2px 4px rgb(13, 46, 230);
+}
+
+footer {
+  color: white;
+  font-size: 1.2rem;
+  font-family: sans-serif;  
+}
+
+.set {
+  margin: 10% auto;
+}
+
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  margin: 10px;
+  font-weight: 900;
+  color: #DA0463;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-shadow: 3px 0 #9addf3;
+  border-radius: 25px;
+  text-align: center;
+  background-color: white; 
+} 
+
+/* adding blinking effect when particular letter is pressed/clicked */
+
+.final-transition
+{
+  border-color: rgb(10, 179, 18);
+}
