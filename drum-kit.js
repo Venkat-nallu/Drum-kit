@@ -32,33 +32,33 @@ function playSound(buttonClicked)
     switch(buttonClicked)
     {
         case "a":
-            var a = new Audio("/Drum-kit/sounds/tom-1.mp3");
+            var a = new Audio("/Drum-kit/drum-kit sounds/tom-1.mp3");
             a.play();
         break;
 
         case "b":
-            var b = new Audio("/Drum-kit/sounds/tom-2.mp3");
+            var b = new Audio("/Drum-kit/drum-kit sounds/tom-2.mp3");
             b.play();
         break;
 
         case "c":
-            var c = new Audio("/Drum-kit/sounds/tom-3.mp3");
+            var c = new Audio("/Drum-kit/drum-kit sounds/tom-3.mp3");
             c.play();
         break;
 
         case "d":
-            var d = new Audio("/Drum-kit/sounds/tom-4.mp3");
+            var d = new Audio("/Drum-kit/drum-kit sounds/tom-4.mp3");
             d.play();
         break;
 
         case "e":
-            var crash = new Audio("/Drum-kit/sounds/crash.mp3");
+            var crash = new Audio("/Drum-kit/drum-kit sounds/crash.mp3");
             crash.play();
         break;
 
 
         case "f":
-            var snare = new Audio("/Drum-kit/sounds/snare.mp3");
+            var snare = new Audio("/Drum-kit/drum-kit sounds/snare.mp3");
             snare.play();
         break;
         
